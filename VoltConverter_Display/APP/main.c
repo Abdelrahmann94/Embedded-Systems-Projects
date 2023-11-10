@@ -9,7 +9,7 @@
 #include "ADC.h"
 #include "EXTI.h"
 #include <avr/io.h>
-#define F_CPU 1000000UL
+#define F_CPU 8000000UL
 #include <util/delay.h>
 
 //        <<<<<<<<<<<<<<<<<<<< Volt task by two methods : polling method and EXTII method >>>>>>>>>>>>>>>>>>>>>
