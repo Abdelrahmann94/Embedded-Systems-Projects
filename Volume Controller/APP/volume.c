@@ -8,7 +8,7 @@
 #include "lcdd.h"
 #include "ADC.h"
 #include <avr/io.h>
-#define F_CPU 1000000UL
+#define F_CPU 8000000UL
 #include <util/delay.h>
 
 // global variable for storing the result of conversion by V
