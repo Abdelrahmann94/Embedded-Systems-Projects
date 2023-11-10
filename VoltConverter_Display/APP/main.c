@@ -12,7 +12,7 @@
 #define F_CPU 1000000UL
 #include <util/delay.h>
 
-//                          <<<<<<<<<<<<<<<<<<<< Volt task by two methods : polling method and EXTII method >>>>>>>>>>>>>>>>>>>>>>>>
+//        <<<<<<<<<<<<<<<<<<<< Volt task by two methods : polling method and EXTII method >>>>>>>>>>>>>>>>>>>>>
 
 
 u32 x,y,z=0;  // variables to divide the result into integer part and float part to convert from mv to volt
