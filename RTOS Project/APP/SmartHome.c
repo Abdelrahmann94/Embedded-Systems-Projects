@@ -57,7 +57,7 @@ void Display_degree (void* pvParamter);
 {
 	
 	/*Create tasks*/
-	xTaskCreate(system_init,(const signed char *)"Task1",200,NULL,Display_Temp_PRIORITY,&Task1Hand);
+	xTaskCreate(system_init,(const signed char *)"Task1",200,NULL,systemInit_PRIORITY ,&Task1Hand);
 	
 	xTaskCreate(Login,(const signed char *)"Task2",200,NULL,Login_PRIORITY,&Task2Hand);
 	
